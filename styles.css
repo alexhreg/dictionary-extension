@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+AU+TAS:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playwrite+AU+TAS:wght@100..400&display=swap');
+
+body {
+    background: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.api-container {
+    background: #2d3142;
+    text-align: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+h1{
+    color: Whitesmoke;
+    font-family: 'Playwrite AU TAS';
+    font-weight: bold;
+}
+
+
+
+#input-box{
+    width: 150px;
+    margin-left: 10px;
+
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: whitesmoke;
+    border-color: transparent;
+    border-right: #2d3142 1px solid;
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+}
+
+#search {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#search-button {
+    background-color: lightcoral;
+    color: whitesmoke;
+    border-color: transparent;
+    font-weight: bold;
+    transition: .3s;
+
+    margin-right: 10px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 2px 5px 0 rgba(0, 0, 0, 0.4);
+}
+#search-button:hover {
+    background-color: #7180b9;
+    transition: .3s;
+}
+
+h2 {
+    color: #2d3142;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+p {
+    color: whitesmoke;
+    margin: 0 10px 0;
+}
+p span {
+    background-color: lightcoral;
+    border-radius: 8px;
+    padding: 5px;
+}
+li {
+    text-decoration: none;
+    color: #2d3142;
+    margin: 5px;
+    padding: 7px;
+    line-height: 1.4;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#results {
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
